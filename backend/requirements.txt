@@ -1,0 +1,45 @@
+# ═══════════════════════════════════════════════════════════
+# RecruitAI Backend — Python Dependencies
+# ═══════════════════════════════════════════════════════════
+
+# ─── Core Framework ───────────────────────────────────────
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+python-multipart==0.0.20
+pydantic[email]==2.11.3
+pydantic-settings==2.9.1
+
+# ─── Database ─────────────────────────────────────────────
+motor==3.7.0
+pymongo==4.12.1
+redis==5.3.0
+
+# ─── Authentication ───────────────────────────────────────
+python-jose[cryptography]==3.4.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.3.0
+
+# ─── HTTP & Async ─────────────────────────────────────────
+httpx==0.28.1
+aiofiles==24.1.0
+
+# ─── File Processing ─────────────────────────────────────
+PyMuPDF==1.25.5
+python-docx==1.1.2
+
+# ─── AI/ML Core ───────────────────────────────────────────
+openai==1.82.1
+google-genai==1.18.0
+sentence-transformers==4.1.0
+spacy==3.8.7
+keybert==0.8.5
+scikit-learn==1.6.1
+numpy==2.2.6
+
+# ─── PDF Generation ──────────────────────────────────────
+weasyprint==63.1
+
+# ─── Utilities ────────────────────────────────────────────
+python-dotenv==1.1.0
+loguru==0.7.3
+tenacity==9.1.2

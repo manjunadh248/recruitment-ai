@@ -1,0 +1,53 @@
+# ═══════════════════════════════════
+# RecruitAI .gitignore
+# ═══════════════════════════════════
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.egg
+
+# Node
+node_modules/
+.next/
+out/
+.turbo/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-data/
+
+# Uploads
+uploads/
+*.pdf
+*.docx
+
+# ML Models
+*.pt
+*.pth
+*.bin
+*.h5
+models/cache/
+
+# Logs
+logs/
+*.log

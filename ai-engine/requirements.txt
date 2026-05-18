@@ -1,0 +1,27 @@
+# ═══════════════════════════════════════════════════════════
+# RecruitAI — AI Engine Dependencies
+# ═══════════════════════════════════════════════════════════
+
+# NLP
+spacy==3.8.7
+sentence-transformers==4.1.0
+keybert==0.8.5
+
+# ML
+scikit-learn==1.6.1
+numpy==2.2.6
+
+# LLM
+openai==1.82.1
+google-genai==1.18.0
+
+# Document Processing
+PyMuPDF==1.25.5
+python-docx==1.1.2
+
+# PDF Generation
+weasyprint==63.1
+
+# Utilities
+loguru==0.7.3
+pydantic==2.11.3
